@@ -3,8 +3,8 @@ Contributors: wpecommerce
 Donate link: http://wp-ecommerce.net/
 Tags: wordpress video seo, video seo for wordpress, wordpress video sitemap, youtube video sitemap for wordpress, google sitemaps, seo, sitemaps, video sitemap, videos, xml sitemaps, youtube
 Requires at least: 3.0.1
-Tested up to: 3.5.1
-Stable tag: 1.0
+Tested up to: 3.6
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -57,7 +57,13 @@ Yes.
 
 For screenshots please visit the [WordPress Video SEO](http://wp-ecommerce.net/wordpress-video-seo-plugin-rank-for-your-videos-in-the-search-engine-2049) plugin page
 
+== Upgrade Notice ==
+None
+
 == Changelog ==
+
+= 1.0.1 =
+* Plugin is now compatible with WordPress 3.6
 
 = 1.0 =
 * First commit
