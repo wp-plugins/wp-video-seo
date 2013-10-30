@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: WP Video SEO
-Version: 1.0.1
+Version: 1.0.2
 Plugin URI: http://wp-ecommerce.net/?p=2049
 Author: wpecommerce
 Author URI: http://wp-ecommerce.net/
@@ -10,7 +10,7 @@ Description: Video SEO plugin for WordPress
 
 class WordPress_Video_SEO_Plugin {
 
-    var $plugin_version = '1.0.1';
+    var $plugin_version = '1.0.2';
 	function __construct() {
 
 		$this->start();
@@ -165,10 +165,10 @@ class WordPress_Video_SEO_Plugin {
 					$video['ratings'] = $youtube_data['ratings'];
 
 					if ( isset( $youtube_data['title'] ) )
-						$video['title'] = $youtube_data['title'];
+						$video['title'] = htmlspecialchars($youtube_data['title']);
 
 					if ( isset( $youtube_data['description'] ) )
-						$video['description'] = $youtube_data['description'];
+						$video['description'] = htmlspecialchars($youtube_data['description']);
 
 					$author_id = $post->post_author;
 
